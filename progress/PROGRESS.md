@@ -4,7 +4,7 @@ Update this as you go — checking boxes here is oddly satisfying and keeps you 
 
 ## Chapter checklist
 
-- [ ] 01 — The Machine Learning Landscape
+- [x] 01 — The Machine Learning Landscape
 - [ ] 02 — End-to-End Machine Learning Project
 - [ ] 03 — Classification
 - [ ] 04 — Training Linear Models

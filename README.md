@@ -22,7 +22,7 @@ is the PyTorch-based successor to the widely used *Hands-On ML with Scikit-Learn
   and — the book's real centerpiece — **Transformers**, LLMs, vision/multimodal models, diffusion models,
   and reinforcement learning, all built with **PyTorch** and the **Hugging Face** ecosystem.
 
-I'm not affiliated with the author or O'Reilly — this is just my personal study log, structured so it's
+I'm not affiliated with the author or O'Reilly, this is just my personal study log, structured so it's
 useful to *anyone* reading the same book. 🙌
 
 > 💡 **Not read the book yet?** Official info & code: [homl.info](https://homl.info) · author's repo:
@@ -53,12 +53,12 @@ ml-journey/
 ```
 
 **Every chapter folder follows the same contract:**
-- `README.md` → a **short, visual** summary (concepts + a diagram + one key takeaway) — enough to remind you
+- `README.md` → a **short, visual** summary (concepts + a diagram + one key takeaway), enough to remind you
   what the chapter taught without re-reading it.
 - `NN_chapter_name.ipynb` → a **starter notebook**: learning goals, a spot to re-implement the book's code,
   and a few practice exercises that push past what the book shows.
 
-This means you can `cd` into any chapter, read a 2-minute README, and immediately start coding — no need to
+This means you can `cd` into any chapter, read a 2-minute README, and immediately start coding, no need to
 read the whole repo top to bottom.
 
 ---
@@ -87,8 +87,8 @@ read the whole repo top to bottom.
 | 18 | Autoencoders, GANs, and Diffusion Models | [`chapters/18-...`](chapters/18-autoencoders-gans-and-diffusion-models/) | Days 22–23 |
 | 19 | Reinforcement Learning | [`chapters/19-...`](chapters/19-reinforcement-learning/) | Days 24–25 |
 
-*(The book also has online-only appendices — autodiff, quantization, SVMs, positional encoding, state-space
-models — not covered day-by-day here, but worth a skim on Day 26.)*
+*(The book also has online-only appendices, autodiff, quantization, SVMs, positional encoding, state-space
+models, not covered day-by-day here, but worth a skim on Day 26.)*
 
 ---
 
@@ -124,7 +124,7 @@ models, RL) two full days each, plus built-in buffer/review days so slipping a d
 | 29 | 🏆 **Capstone, Part 2** | Iterate on the model, evaluate honestly, write it up |
 | 30 | 🎉 **Wrap-up & Share** | Polish READMEs, write a "what I learned" post, share the repo |
 
-> Adjust freely — the point of a plan is to have a default, not a cage. If Transformers eat 4 days instead of
+> Adjust freely, the point of a plan is to have a default, not a cage. If Transformers eat 4 days instead of
 > 3, steal a day from the buffers, not from sleep.
 
 ---
@@ -132,7 +132,7 @@ models, RL) two full days each, plus built-in buffer/review days so slipping a d
 ## 🚀 How to use this repo
 
 ### If you just want to read along
-Every chapter's `README.md` is short and self-contained — browse `chapters/` and read them in order.
+Every chapter's `README.md` is short and self-contained, browse `chapters/` and read them in order.
 
 ### If you want to code along
 ```bash
