@@ -1,0 +1,30 @@
+# Core Part I (Scikit-Learn) stack
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+
+# Part II (PyTorch / deep learning) stack
+torch
+torchvision
+torchmetrics
+optuna
+
+# NLP / Transformers / chatbots (Ch. 14-17)
+transformers
+datasets
+sentence-transformers
+accelerate
+
+# Reinforcement learning (Ch. 19)
+gymnasium
+stable-baselines3
+
+# Notebook environment
+jupyterlab
+ipywidgets
+
+# Nice-to-haves used across chapters
+graphviz
+tqdm

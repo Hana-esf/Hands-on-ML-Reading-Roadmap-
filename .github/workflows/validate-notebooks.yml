@@ -1,0 +1,35 @@
+name: Validate notebooks
+
+on:
+  push:
+    paths:
+      - "chapters/**/*.ipynb"
+  pull_request:
+    paths:
+      - "chapters/**/*.ipynb"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install nbformat
+        run: pip install nbformat
+      - name: Validate every notebook parses and is well-formed
+        run: |
+          python - <<'EOF'
+          import glob, nbformat, sys
+
+          failed = False
+          for path in glob.glob("chapters/**/*.ipynb", recursive=True):
+              try:
+                  nbformat.read(path, as_version=4)
+                  print(f"OK   {path}")
+              except Exception as e:
+                  print(f"FAIL {path}: {e}")
+                  failed = True
+          sys.exit(1 if failed else 0)
+          EOF

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & model artifacts (keep the repo light — don't commit datasets/weights)
+data/
+*.csv
+*.parquet
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
