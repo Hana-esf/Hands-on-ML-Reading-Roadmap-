@@ -51,10 +51,10 @@ these prompts to go one step further on your own:
 
 ## ✅ Progress
 
-- [ ] Read the chapter
-- [ ] Ran and understood the book's code examples
-- [ ] Completed the practice exercises above in `01_the_machine_learning_landscape.ipynb`
-- [ ] Could explain this chapter's key takeaway to someone else in 2 minutes
+- [x] Read the chapter
+- [x] Ran and understood the book's code examples
+- [x] Completed the practice exercises above in `01_the_machine_learning_landscape.ipynb`
+- [x] Could explain this chapter's key takeaway to someone else in 2 minutes
 
 ---
 
