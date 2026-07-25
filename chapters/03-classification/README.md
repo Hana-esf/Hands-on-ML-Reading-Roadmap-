@@ -45,10 +45,10 @@ these prompts to go one step further on your own:
 
 ## ✅ Progress
 
-- [ ] Read the chapter
+- [x] Read the chapter
 - [ ] Ran and understood the book's code examples
 - [ ] Completed the practice exercises above in `03_classification.ipynb`
-- [ ] Could explain this chapter's key takeaway to someone else in 2 minutes
+- [x] Could explain this chapter's key takeaway to someone else in 2 minutes
 
 ---
 
